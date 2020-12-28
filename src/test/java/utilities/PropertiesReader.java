@@ -9,8 +9,8 @@ public class PropertiesReader {
 
     private static final String CONFIGFILEPATH = "./config.properties";
     private static final String LOCATORFILEPATH = "src//test//java//Locator//locator.properties";
-    private static final String TESTDATALOCALFILEPATH = "src//test//java//Locator//testdata_local.properties";
-    private static final String TESTDATASITFILEPATH = "src//test//java//Locator//testdata_local.properties";
+    private static final String TESTDATALOCALFILEPATH = "src//test//java//testdata//testdata_local.properties";
+    private static final String TESTDATASITFILEPATH = "src//test//java//testdata//testdata_local.properties";
     static Properties properties = new Properties();
     public static String getValue(String key) throws Exception {
 
